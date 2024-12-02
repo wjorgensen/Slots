@@ -60,7 +60,6 @@ contract Slots is VRFConsumerBaseV2Plus, ReentrancyGuard {
     // Slots Functions                                    
     /**********************************************************/
 
-    //spin
     function spin() external payable {
         if(msg.value < PRICE_PER_SPIN){
             revert NOT_ENOUGH_VALUE_SENT();

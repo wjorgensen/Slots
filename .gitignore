@@ -57,3 +57,5 @@ docs/
 
 # Dotenv file
 .env
+
+contracts/lib/*
